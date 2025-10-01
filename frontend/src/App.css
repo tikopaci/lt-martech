@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+}
+
+.utm-info, .storage-info {
+  background-color: #444;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.utm-info h3, .storage-info h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.utm-info pre, .storage-info pre {
+  background-color: #222;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 12px;
+}
+
+.lead-form {
+  background-color: #444;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+}
+
+.checkbox-label {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: auto !important;
+  margin: 0;
+}
+
+.checkbox-label span {
+  color: white;
+}
+
+.submit-btn {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background-color: #4fa8c5;
+}
+
+.submit-btn:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.message.success {
+  background-color: #4caf50;
+  color: white;
+}
+
+.message.error {
+  background-color: #f44336;
+  color: white;
+}
